@@ -13,5 +13,5 @@ df.sample(5)
 ## save as csv to model_dev/data/raw
 df.to_csv('model_dev/data/raw/nypdshooting_data.csv', index=False)
 
-## save as pickle to WK9/code/model_dev/data/raw
+## save as pickle to model_dev/data/raw
 df.to_pickle('model_dev/data/raw/nypdshooting_data.pkl')
